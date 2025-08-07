@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import Form from "../ui/noteform";
-import WizardContainer from "../ui/wizard/wizard-container";
-import Review from "../ui/review";
+import Form from "../../ui/noteform";
+import WizardContainer from "../../ui/wizard/wizard-container";
+import Review from "../../ui/review";
 
 export default function Page() {
   const [data, setData] = useState([]);
